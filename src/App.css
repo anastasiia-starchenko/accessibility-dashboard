@@ -40,3 +40,81 @@ th, td {
   display: flex;
   flex-direction: column;
 }
+.recommendations-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+h2 {
+  color: #333;
+}
+
+.violation {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.violation h3 {
+  margin: 0 0 10px 0;
+  color: #b33a3a; /* Red color for description */
+}
+
+.violation-item {
+  margin-bottom: 10px;
+}
+
+.violation-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+
+.violation-details div {
+  margin-bottom: 5px;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 5px;
+}
+
+.toggle-btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+.violation p {
+  color: #444;
+}
+.download-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}

@@ -3,7 +3,8 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, PieChart, Pie, Cell, Legend } fro
 
 const COLORS = {
     critical: '#FF6347', // Red for critical issues
-    moderate: '#FFA500', // Orange for moderate issues
+    serious: '#FFA500', // Orange for moderate issues
+    moderate: '#a5a506', // Yellow for moderate issues
     minor: '#90EE90', // Green for minor issues
 };
 
